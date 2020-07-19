@@ -16,6 +16,14 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /svg/ // See below to configure properly
+        }
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `snowdigital-t`,
