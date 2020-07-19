@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+* {
+  text-rendering: optimizeLegibility;
+  font-family: "Ubuntu", -apple-system, "SF Pro Display", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #75767d;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
